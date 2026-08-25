@@ -319,8 +319,7 @@
       border: 1px solid var(--line);
       background: var(--card);
       border-radius: 20px;
-    }
-Admin: .icon {
+    }.icon {
       width: 48px;
       height: 48px;
       display: grid;
@@ -624,7 +623,637 @@ Admin: .icon {
               dengan perkembangan zaman.
             </p>
           </article>
-[26/08/2026 0:40] Admin: <article class="card">
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dhirhanna Corp | Bisnis & Masa Depan Digital</title>
+  <meta name="description" content="Dhirhanna Corp adalah platform bisnis dan digital yang mengembangkan produk, layanan, informasi, dan ekosistem untuk membangun nilai yang berkelanjutan.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#071426">
+  <meta name="author" content="Dhirhanna Corp">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="canonical" href="https://dhirhannacorp.github.io/">
+  <link rel="icon" type="image/png" href="dhirhanna-corp-favicon-1.png">
+
+  <!-- Google Analytics / Google tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CDNWKL8GBZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CDNWKL8GBZ');
+  </script>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dhirhanna Corp | Bisnis & Masa Depan Digital">
+  <meta property="og:description" content="Membangun bisnis dan masa depan digital melalui inovasi, produk, layanan, dan ekosistem yang bernilai.">
+  <meta property="og:url" content="https://dhirhannacorp.github.io/">
+  <meta property="og:site_name" content="Dhirhanna Corp">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:image" content="https://dhirhannacorp.github.io/dhirhanna-corp-logo.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dhirhanna Corp">
+  <meta name="twitter:description" content="Membangun Bisnis dan Masa Depan Digital.">
+  <meta name="twitter:image" content="https://dhirhannacorp.github.io/dhirhanna-corp-logo.png">
+  <meta name="twitter:url" content="https://dhirhannacorp.github.io/">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://dhirhannacorp.github.io/#organization",
+        "name": "Dhirhanna Corp",
+        "url": "https://dhirhannacorp.github.io/",
+        "logo": "https://dhirhannacorp.github.io/dhirhanna-corp-logo.png"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dhirhannacorp.github.io/#website",
+        "url": "https://dhirhannacorp.github.io/",
+        "name": "Dhirhanna Corp",
+        "publisher": {
+          "@id": "https://dhirhannacorp.github.io/#organization"
+        },
+        "inLanguage": "id-ID"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --navy: #071426;
+      --navy-2: #0d2039;
+      --navy-3: #09182c;
+      --gold: #d9a441;
+      --gold-2: #f1c96a;
+      --white: #ffffff;
+      --muted: #b7c2d1;
+      --line: rgba(255,255,255,.10);
+      --card: rgba(255,255,255,.055);
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--white);
+      background: var(--navy);
+      line-height: 1.65;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; height: auto; }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max));
+      margin: 0 auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(7,20,38,.90);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }.brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: .12em;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .brand span { font-size: 16px; }
+    .brand b { color: var(--gold); }
+
+    nav {
+      display: flex;
+      gap: 26px;
+      align-items: center;
+    }
+
+    nav a {
+      color: #dbe3ee;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    nav a:hover { color: var(--gold-2); }
+
+    .nav-cta {
+      padding: 10px 17px;
+      border: 1px solid rgba(217,164,65,.55);
+      border-radius: 999px;
+      color: var(--gold-2);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 680px;
+      display: flex;
+      align-items: center;
+      background:
+        radial-gradient(circle at 82% 30%, rgba(217,164,65,.18), transparent 28%),
+        radial-gradient(circle at 20% 70%, rgba(35,89,145,.25), transparent 32%),
+        linear-gradient(135deg, #071426 0%, #0b1b31 58%, #121c2c 100%);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 520px;
+      height: 520px;
+      right: -180px;
+      bottom: -240px;
+      border: 1px solid rgba(217,164,65,.18);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 80px rgba(217,164,65,.025),
+        0 0 0 160px rgba(217,164,65,.018);
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--gold-2);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 36px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    h1 {
+      font-size: clamp(46px, 6vw, 78px);
+      line-height: 1.04;
+      letter-spacing: -.045em;
+      margin: 0 0 24px;
+      max-width: 820px;
+    }
+
+    h1 span { color: var(--gold); }
+
+    .hero p {
+      color: var(--muted);
+      max-width: 680px;
+      font-size: 18px;
+      margin: 0 0 32px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 22px;
+      border-radius: 10px;
+      font-weight: 800;
+      border: 1px solid transparent;
+      transition: transform .2s ease, opacity .2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: .94;
+    }
+
+    .btn-primary {
+      color: #111;
+      background: linear-gradient(135deg, var(--gold-2), var(--gold));
+      box-shadow: 0 12px 30px rgba(217,164,65,.18);
+    }
+
+    .btn-secondary {
+      border-color: rgba(255,255,255,.18);
+      color: #fff;
+      background: rgba(255,255,255,.035);
+    }
+
+    .hero-card {
+      border: 1px solid rgba(217,164,65,.22);
+      background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.025));
+      border-radius: 28px;
+      padding: 34px;
+      box-shadow: 0 30px 80px rgba(0,0,0,.25);
+    }
+
+    .hero-logo {
+      width: 190px;
+      display: block;
+      margin: 0 auto 26px;
+      border-radius: 18px;
+    }
+
+    .hero-card h2 {
+      margin: 0 0 10px;
+      font-size: 24px;
+    }
+
+    .hero-card p {
+      font-size: 15px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    section { padding: 100px 0; }
+
+    .section-head {
+      max-width: 720px;
+      margin-bottom: 45px;
+    }
+
+    .section-head .eyebrow { margin-bottom: 12px; }
+
+    h2.section-title {
+      font-size: clamp(34px, 4vw, 52px);
+      line-height: 1.1;
+      margin: 0 0 16px;
+      letter-spacing: -.035em;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .dark { background: var(--navy-3); }
+[26/08/2026 0:55] Admin: .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      padding: 30px;
+      border: 1px solid var(--line);
+      background: var(--card);
+      border-radius: 20px;
+    }
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      background: rgba(217,164,65,.11);
+      color: var(--gold-2);
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 22px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 21px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .quote {
+      font-size: 30px;
+      line-height: 1.25;
+      font-weight: 750;
+      margin: 0;
+    }
+
+    .quote span { color: var(--gold); }
+
+    .about-text p { color: var(--muted); }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .stat {
+      padding: 18px;
+      border-left: 2px solid var(--gold);
+      background: rgba(255,255,255,.035);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 28px;
+    }
+
+    .stat small { color: var(--muted); }
+
+    .cta {
+      background:
+        radial-gradient(circle at 75% 40%, rgba(217,164,65,.17), transparent 30%),
+        linear-gradient(135deg, #0b1d34, #081426);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .cta-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .cta h2 {
+      font-size: clamp(32px, 4vw, 50px);
+      margin: 0 0 10px;
+    }
+
+    .cta p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 650px;
+    }
+
+    footer {
+      padding: 38px 0;
+      background: #050e1b;
+      color: #9eabbc;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .footer strong { color: #fff; }
+    .copyright { font-size: 13px; }
+
+    @media (max-width: 850px) {
+      nav { display: none; }
+
+      .hero {
+        min-height: auto;
+        padding: 100px 0;
+      }
+
+      .hero-grid,
+      .about {
+        grid-template-columns: 1fr;
+        gap: 45px;
+      }
+
+      .grid3 { grid-template-columns: 1fr; }
+      section { padding: 75px 0; }
+
+      .cta-box {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max));
+      }
+
+      .brand span { font-size: 14px; }
+      h1 { font-size: 46px; }
+      .hero p { font-size: 16px; }
+      .hero-card { padding: 24px; }
+      .stats { grid-template-columns: 1fr; }
+
+      .footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Dhirhanna Corp">
+        <img src="dhirhanna-corp-logo.png" alt="Logo Dhirhanna Corp">
+        <span>DHIRHANNA <b>CORP</b></span>
+      </a>
+
+      <nav aria-label="Navigasi utama">
+        <a href="#about">Tentang</a>
+        <a href="#ecosystem">Ekosistem</a>
+        <a href="#vision">Visi</a>
+        <a class="nav-cta" href="#contact">Hubungi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Business • Digital • Innovation</div>
+
+          <h1>Membangun <span>Bisnis</span> dan Masa Depan Digital.</h1>
+
+          <p>
+            Dhirhanna Corp mengembangkan produk, layanan, informasi, dan
+            ekosistem digital dengan fokus pada penciptaan nilai yang
+            berkelanjutan.
+          </p>
+<div class="actions">
+            <a class="btn btn-primary" href="#about">Kenal Dhirhanna Corp</a>
+            <a class="btn btn-secondary" href="#ecosystem">Jelajahi Ekosistem</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Profil Dhirhanna Corp">
+          <img
+            class="hero-logo"
+            src="dhirhanna-corp-logo.png"
+            alt="Dhirhanna Corp"
+          >
+          <h2>Built for Value.</h2>
+          <p>
+            Menghubungkan ide, bisnis, teknologi, dan peluang menjadi
+            ekosistem yang memiliki dampak nyata.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container about">
+        <div>
+          <div class="eyebrow">Tentang Kami</div>
+          <p class="quote">
+            “Membangun sesuatu yang <span>bernilai</span>,
+            bukan sekadar terlihat besar.”
+          </p>
+        </div>
+
+        <div class="about-text">
+          <p>
+            Dhirhanna Corp adalah platform bisnis dan digital yang menjadi
+            rumah bagi berbagai inisiatif, produk, layanan, dan pengembangan
+            teknologi. Kami mengutamakan fondasi yang kuat, pengalaman pengguna,
+            inovasi, dan pertumbuhan jangka panjang.
+          </p>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>01</strong>
+              <small>Strategic Thinking</small>
+            </div>
+            <div class="stat">
+              <strong>02</strong>
+              <small>Digital Innovation</small>
+            </div>
+            <div class="stat">
+              <strong>03</strong>
+              <small>Sustainable Value</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ecosystem" class="dark">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Ekosistem</div>
+          <h2 class="section-title">Membangun fondasi untuk berbagai peluang.</h2>
+          <p>
+            Dhirhanna Corp dirancang sebagai ekosistem yang dapat berkembang
+            mengikuti kebutuhan bisnis dan transformasi digital.
+          </p>
+        </div>
+
+        <div class="grid3">
+          <article class="card">
+            <div class="icon">◆</div>
+            <h3>Business</h3>
+            <p>
+              Pengembangan model bisnis, produk, dan layanan yang berorientasi
+              pada kebutuhan pasar serta penciptaan nilai.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">⌘</div>
+            <h3>Digital</h3>
+            <p>
+              Pemanfaatan teknologi digital untuk membangun pengalaman,
+              efisiensi, dan sistem yang dapat berkembang.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">↗</div>
+            <h3>Growth</h3>
+            <p>
+              Menciptakan fondasi pertumbuhan melalui strategi, data,
+              inovasi, dan pengembangan ekosistem.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Visi & Prinsip</div>
+          <h2 class="section-title">Bertumbuh dengan arah yang jelas.</h2>
+          <p>
+            Kami membangun dengan perspektif jangka panjang: relevan,
+            adaptif, dan berorientasi pada nilai.
+          </p>
+        </div>
+
+        <div class="grid3">
+          <article class="card">
+            <div class="icon">01</div>
+            <h3>Vision</h3>
+            <p>
+              Menjadi ekosistem bisnis dan digital yang mampu menciptakan
+              nilai secara berkelanjutan.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="icon">02</div>
+            <h3>Innovation</h3>
+            <p>
+              Mengubah ide menjadi produk, layanan, dan solusi yang relevan
+              dengan perkembangan zaman.
+            </p>
+          </article>
+<article class="card">
             <div class="icon">03</div>
             <h3>Integrity</h3>
             <p>
