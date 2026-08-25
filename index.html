@@ -1,31 +1,37 @@
-<!DOCTYPE html>
+[25/08/2026 7:31] Admin: <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Dhirhanna Corp | Platform Bisnis dan Digital</title>
 
-  <meta name="description" content="Dhirhanna Corp adalah platform bisnis dan digital yang menghadirkan berbagai produk, layanan, informasi, dan pengembangan usaha.">
-
+  <meta name="description" content="Dhirhanna Corp adalah platform bisnis dan digital yang mengembangkan produk, layanan, informasi, dan peluang usaha.">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#071a33">
 
   <link rel="canonical" href="https://dhirhannacorp.github.io/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/dhirhanna-corp-favicon.png">
+  <link rel="apple-touch-icon" href="/dhirhanna-corp-favicon.png">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Dhirhanna Corp | Platform Bisnis dan Digital">
-  <meta property="og:description" content="Website resmi Dhirhanna Corp — platform bisnis dan digital untuk produk, layanan, informasi, dan pengembangan usaha.">
+  <meta property="og:description" content="Website resmi Dhirhanna Corp untuk informasi bisnis, produk, layanan, dan pengembangan digital.">
   <meta property="og:url" content="https://dhirhannacorp.github.io/">
   <meta property="og:site_name" content="Dhirhanna Corp">
+  <meta property="og:image" content="https://dhirhannacorp.github.io/dhirhanna-corp-logo.png">
+  <meta property="og:image:alt" content="Logo Dhirhanna Corp">
 
-  <!-- Twitter / Social Sharing -->
+  <!-- Twitter / social sharing -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Dhirhanna Corp">
-  <meta name="twitter:description" content="Platform bisnis dan digital Dhirhanna Corp.">
+  <meta name="twitter:title" content="Dhirhanna Corp | Platform Bisnis dan Digital">
+  <meta name="twitter:description" content="Website resmi Dhirhanna Corp untuk informasi bisnis, produk, layanan, dan pengembangan digital.">
+  <meta name="twitter:image" content="https://dhirhannacorp.github.io/dhirhanna-corp-logo.png">
 
-  <!-- Schema.org -->
+  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -34,7 +40,11 @@
         "@type": "Organization",
         "@id": "https://dhirhannacorp.github.io/#organization",
         "name": "Dhirhanna Corp",
-        "url": "https://dhirhannacorp.github.io/"
+        "url": "https://dhirhannacorp.github.io/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dhirhannacorp.github.io/dhirhanna-corp-logo.png"
+        }
       },
       {
         "@type": "WebSite",
@@ -43,7 +53,8 @@
         "url": "https://dhirhannacorp.github.io/",
         "publisher": {
           "@id": "https://dhirhannacorp.github.io/#organization"
-        }
+        },
+        "inLanguage": "id-ID"
       }
     ]
   }
@@ -52,6 +63,7 @@
   <style>
     :root {
       --navy: #071a33;
+      --navy-2: #0d3159;
       --blue: #0d4f8b;
       --blue-light: #eaf4ff;
       --white: #ffffff;
@@ -85,20 +97,24 @@
       text-decoration: none;
     }
 
-    .container {
-      width: min(1120px, 92%);
-      margin: auto;
+    img {
+      max-width: 100%;
+      display: block;
     }
 
-    /* NAVIGATION */
+    .container {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
 
+    /* HEADER */
     header {
       position: sticky;
       top: 0;
       z-index: 1000;
       background: rgba(7, 26, 51, 0.96);
       backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     nav {
@@ -106,21 +122,32 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 25px;
+      gap: 24px;
     }
 
-    .logo {
-      color: white;
-      font-size: 21px;
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--white);
+      font-size: 20px;
       font-weight: 800;
       letter-spacing: 1px;
+      white-space: nowrap;
     }
 
-    .logo span {
+    .brand img {
+      width: 42px;
+      height: 42px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid rgba(214, 168, 79, 0.35);
+    }
+
+    .brand-name-accent {
       color: var(--accent);
     }
-
-    .nav-links {
+[25/08/2026 7:31] Admin: .nav-links {
       display: flex;
       align-items: center;
       gap: 25px;
@@ -128,22 +155,23 @@
     }
 
     .nav-links a {
-      color: white;
+      color: var(--white);
       font-size: 14px;
       opacity: 0.9;
     }
 
-    .nav-links a:hover {
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
       color: var(--accent);
     }
 
     /* HERO */
-
     .hero {
       background:
-        radial-gradient(circle at top right, rgba(13,79,139,0.45), transparent 35%),
-        linear-gradient(135deg, #071a33, #0d3159);
-      color: white;
+        radial-gradient(circle at 85% 15%, rgba(13, 79, 139, 0.45), transparent 35%),
+        radial-gradient(circle at 80% 80%, rgba(214, 168, 79, 0.12), transparent 30%),
+        linear-gradient(135deg, var(--navy), var(--navy-2));
+      color: var(--white);
       padding: 110px 0 100px;
     }
 
@@ -151,10 +179,19 @@
       max-width: 850px;
     }
 
+    .hero-logo {
+      width: 88px;
+      height: 88px;
+      object-fit: cover;
+      border-radius: 16px;
+      margin-bottom: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
     .badge {
       display: inline-block;
       padding: 7px 15px;
-      border: 1px solid rgba(255,255,255,0.2);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 30px;
       font-size: 13px;
       margin-bottom: 22px;
@@ -170,7 +207,9 @@
 
     .hero h1 span {
       color: var(--accent);
-    }.hero p {
+    }
+
+    .hero p {
       max-width: 720px;
       color: #d9e7f7;
       font-size: 19px;
@@ -179,27 +218,27 @@
 
     .button {
       display: inline-block;
-      background: white;
+      background: var(--white);
       color: var(--navy);
       padding: 13px 22px;
       border-radius: 8px;
       font-weight: 700;
-      margin-right: 10px;
-      transition: 0.2s;
+      margin: 0 10px 10px 0;
+      transition: transform 0.2s ease;
     }
 
-    .button:hover {
+    .button:hover,
+    .button:focus-visible {
       transform: translateY(-2px);
     }
 
     .button-outline {
       background: transparent;
-      color: white;
-      border: 1px solid rgba(255,255,255,0.35);
+      color: var(--white);
+      border: 1px solid rgba(255, 255, 255, 0.35);
     }
 
-    /* SECTION */
-
+    /* SECTIONS */
     section {
       padding: 85px 0;
     }
@@ -228,47 +267,7 @@
       font-size: 17px;
     }
 
-    /* CARDS */
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 22px;
-    }
-
-    .card {
-      padding: 32px;
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      background: white;
-      box-shadow: var(--shadow);
-    }
-
-    .card-icon {
-      width: 48px;
-      height: 48px;
-      border-radius: 12px;
-      background: var(--blue-light);
-      color: var(--blue);
-      display: grid;
-      place-items: center;
-      font-size: 22px;
-      margin-bottom: 22px;
-    }
-
-    .card h3 {
-      color: var(--navy);
-      margin-bottom: 10px;
-      font-size: 20px;
-    }
-
-    .card p {
-      color: var(--muted);
-      font-size: 15px;
-    }
-
     /* ABOUT */
-
     .about {
       background: var(--bg);
     }
@@ -300,11 +299,49 @@
       font-weight: 700;
     }
 
-    /* CTA */
+    /* CARDS */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
 
+    .card {
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: var(--blue-light);
+      color: var(--blue);
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 22px;
+    }
+
+    .card h3 {
+      color: var(--navy);
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* CTA */
     .cta {
       background: var(--navy);
-      color: white;
+      color: var(--white);
       text-align: center;
     }
 
@@ -318,9 +355,7 @@
       max-width: 650px;
       margin: 0 auto 30px;
     }
-
-    /* FOOTER */
-
+[25/08/2026 7:31] Admin: /* FOOTER */
     footer {
       background: #041120;
       color: #b9c7d8;
@@ -335,7 +370,7 @@
     }
 
     .footer-brand {
-      color: white;
+      color: var(--white);
       font-weight: 800;
     }
 
@@ -344,7 +379,6 @@
     }
 
     /* MOBILE */
-
     @media (max-width: 800px) {
       .nav-links {
         display: none;
@@ -358,10 +392,12 @@
         font-size: 17px;
       }
 
-      .cards {
-        grid-template-columns: 1fr;
+      .hero-logo {
+        width: 72px;
+        height: 72px;
       }
 
+      .cards,
       .about-grid {
         grid-template-columns: 1fr;
       }
@@ -384,8 +420,16 @@
     <div class="container">
       <nav aria-label="Navigasi utama">
 
-        <a href="/" class="logo">
-          DHIRHANNA<span>CORP</span>
+        <a href="/" class="brand" aria-label="Dhirhanna Corp">
+          <img
+            src="/dhirhanna-corp-logo.png"
+            alt="Logo Dhirhanna Corp"
+            width="42"
+            height="42"
+          >
+          <span>
+            DHIRHANNA<span class="brand-name-accent">CORP</span>
+          </span>
         </a>
 
         <ul class="nav-links">
@@ -401,15 +445,21 @@
   <main>
 
     <!-- HERO -->
-
     <section class="hero">
       <div class="container">
-
         <div class="hero-content">
 
-          <div class="badge">
-            DHIRHANNA CORP
-          </div><h1>
+          <img
+            class="hero-logo"
+            src="/dhirhanna-corp-logo.png"
+            alt="Dhirhanna Corp"
+            width="88"
+            height="88"
+          >
+
+          <div class="badge">DHIRHANNA CORP</div>
+
+          <h1>
             Membangun <span>Bisnis</span> dan Masa Depan Digital.
           </h1>
 
@@ -429,28 +479,19 @@
           </a>
 
         </div>
-
       </div>
     </section>
 
-
     <!-- TENTANG -->
-
     <section id="tentang" class="about">
-
       <div class="container">
 
         <div class="about-grid">
 
           <div>
-
             <div class="section-heading">
               <small>Tentang Kami</small>
-
-              <h2>
-                Dhirhanna Corp
-              </h2>
-
+              <h2>Dhirhanna Corp</h2>
               <p>
                 Sebuah identitas yang dibangun untuk
                 mengembangkan bisnis, produk, teknologi,
@@ -468,40 +509,30 @@
             <div class="highlight">
               Inovasi. Nilai. Pertumbuhan.
             </div>
-
           </div>
 
           <div class="card">
-
             <div class="card-icon">◆</div>
 
-            <h3>
-              Visi
-            </h3>
+            <h3>Visi</h3>
 
             <p>
               Membangun ekosistem bisnis dan digital
               yang mampu menciptakan nilai nyata,
               berkelanjutan, dan relevan dengan masa depan.
             </p>
-
           </div>
 
         </div>
 
       </div>
-
     </section>
 
-
     <!-- LAYANAN -->
-
     <section id="layanan">
-
       <div class="container">
 
         <div class="section-heading">
-
           <small>Ekosistem</small>
 
           <h2>
@@ -512,78 +543,55 @@
             Berbagai bidang yang dapat dikembangkan
             dalam ekosistem Dhirhanna Corp.
           </p>
-
         </div>
 
-
         <div class="cards">
-
-          <article class="card">
-
+[25/08/2026 7:31] Admin: <article class="card">
             <div class="card-icon">01</div>
 
-            <h3>
-              Business Development
-            </h3>
+            <h3>Business Development</h3>
 
             <p>
               Pengembangan ide, model bisnis,
               produk, dan peluang usaha yang
               memiliki potensi pertumbuhan.
             </p>
-
           </article>
 
-
           <article class="card">
-
             <div class="card-icon">02</div>
 
-            <h3>
-              Digital Platform
-            </h3>
+            <h3>Digital Platform</h3>
 
             <p>
               Pengembangan aset digital,
               website, aplikasi, dan solusi
               berbasis teknologi.
             </p>
-
           </article>
 
-
           <article class="card">
-
             <div class="card-icon">03</div>
 
-            <h3>
-              Brand & Innovation
-            </h3>
+            <h3>Brand &amp; Innovation</h3>
 
             <p>
               Pengembangan brand, konsep produk,
               strategi komunikasi, dan inovasi
               untuk menciptakan nilai baru.
             </p>
-
           </article>
 
         </div>
 
       </div>
-
     </section>
 
-
     <!-- CTA -->
-
     <section id="kontak" class="cta">
-
       <div class="container">
 
-        <h2>
-          Selamat Datang di Dhirhanna Corp
-        </h2>
+        <h2>Selamat Datang di Dhirhanna Corp</h2>
 
         <p>
           Jelajahi ekosistem Dhirhanna Corp dan
@@ -596,16 +604,12 @@
         </a>
 
       </div>
-
     </section>
 
   </main>
 
-
   <!-- FOOTER -->
-
   <footer>
-
     <div class="container">
 
       <div class="footer-content">
@@ -621,7 +625,6 @@
       </div>
 
     </div>
-
   </footer>
 
 </body>
