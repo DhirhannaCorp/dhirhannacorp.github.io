@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dhirhannacorp.github.io/sitemap.xml
+Sitemap:https://dhirhannacorp.github.io/sitemap.xml
