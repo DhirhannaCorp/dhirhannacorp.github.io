@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Use | Dhirhanna Corp</title>
+<meta name="description" content="Ketentuan Penggunaan situs Dhirhanna Corp mengenai akses, penggunaan konten, tautan pihak ketiga, dan batas tanggung jawab.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://dhirhannacorp.github.io/terms.html">
+<link rel="icon" type="image/png" href="dhirhanna-corp-favicon-1.png">
+<link rel="stylesheet" href="style.css">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="Terms of Use | Dhirhanna Corp">
+<meta property="og:description" content="Ketentuan Penggunaan situs Dhirhanna Corp mengenai akses, penggunaan konten, tautan pihak ketiga, dan batas tanggung jawab.">
+<meta property="og:url" content="https://dhirhannacorp.github.io/terms.html">
+<meta property="og:site_name" content="Dhirhanna Corp">
+<meta property="og:image" content="https://dhirhannacorp.github.io/dhirhanna-corp-logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Terms of Use | Dhirhanna Corp">
+<meta name="twitter:description" content="Ketentuan Penggunaan situs Dhirhanna Corp mengenai akses, penggunaan konten, tautan pihak ketiga, dan batas tanggung jawab.">
+<meta name="twitter:image" content="https://dhirhannacorp.github.io/dhirhanna-corp-logo.png">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CDNWKL8GBZ"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-CDNWKL8GBZ');
+</script>
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="index.html"><img src="dhirhanna-corp-logo.png" alt="Logo Dhirhanna Corp" width="42" height="42"><span>DHIRHANNA <b>CORP</b></span></a>
+<nav aria-label="Navigasi utama">
+<a href="index.html">Beranda</a><a href="about.html">Tentang</a><a href="index.html#ecosystem">Ekosistem</a><a href="index.html#vision">Visi</a><a href="contact.html" class="nav-cta">Kontak</a>
+</nav></div></header>
+
+<main>
+<section class="page-hero"><div class="container"><div class="eyebrow">Legal</div><h1>Terms of <span>Use.</span></h1><p class="lead">Ketentuan penggunaan situs Dhirhanna Corp.</p></div></section>
+<section><div class="container content legal-card">
+<p><strong>Terakhir diperbarui: 26 Agustus 2026</strong></p>
+<h2>1. Penerimaan Ketentuan</h2><p>Dengan mengakses atau menggunakan situs Dhirhanna Corp, Anda dianggap telah membaca dan memahami ketentuan ini. Jika tidak setuju, harap hentikan penggunaan situs.</p>
+<h2>2. Tujuan Situs</h2><p>Situs ini menyediakan informasi mengenai Dhirhanna Corp, inisiatif, produk, layanan, ekosistem, dan informasi terkait. Informasi dapat berubah tanpa pemberitahuan sebelumnya.</p>
+<h2>3. Hak Kekayaan Intelektual</h2><p>Kecuali dinyatakan lain, nama merek, logo, desain, teks, dan materi yang dipublikasikan di situs merupakan milik atau digunakan oleh Dhirhanna Corp dan tidak boleh disalin, dimodifikasi, atau digunakan untuk tujuan komersial tanpa izin yang sesuai.</p>
+<h2>4. Penggunaan yang Dilarang</h2><p>Pengguna tidak diperkenankan menggunakan situs untuk tindakan yang melanggar hukum, mengganggu keamanan atau ketersediaan situs, melakukan akses tanpa izin, atau menyalahgunakan konten maupun layanan.</p>
+<h2>5. Akurasi Informasi</h2><p>Kami berupaya menjaga informasi tetap akurat dan relevan, tetapi tidak menjamin bahwa seluruh informasi selalu lengkap, terkini, atau bebas dari kesalahan.</p>
+<h2>6. Tautan Eksternal</h2><p>Situs dapat memuat tautan menuju layanan atau situs pihak ketiga. Dhirhanna Corp tidak bertanggung jawab atas isi, keamanan, atau kebijakan situs pihak ketiga tersebut.</p>
+[26/08/2026 7:36] Admin: <h2>7. Batas Tanggung Jawab</h2><p>Sejauh diizinkan oleh hukum yang berlaku, Dhirhanna Corp tidak bertanggung jawab atas kerugian yang timbul dari penggunaan atau ketidakmampuan menggunakan situs, termasuk ketergantungan pada informasi yang tersedia di dalamnya.</p>
+<h2>8. Perubahan Ketentuan</h2><p>Ketentuan dapat diperbarui dari waktu ke waktu. Versi yang dipublikasikan di halaman ini merupakan versi yang berlaku untuk penggunaan situs setelah tanggal pembaruan.</p>
+<h2>9. Kontak</h2><p>Untuk pertanyaan mengenai ketentuan ini, silakan gunakan halaman <a href="contact.html"><u>Contact</u></a>.</p>
+<div class="notice">Dokumen ini merupakan template ketentuan penggunaan situs umum dan bukan nasihat hukum. Lakukan review hukum sebelum digunakan sebagai dokumen final untuk kegiatan komersial atau pengumpulan data pribadi dalam skala besar.</div>
+</div></section></main>
+<footer><div class="container footer">
+<div><strong>DHIRHANNA CORP</strong><br><span class="copyright">Business & Digital Ecosystem</span></div>
+<div class="footer-links"><a href="about.html">Tentang</a><a href="contact.html">Kontak</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a></div>
+<div class="copyright">© 2026 Dhirhanna Corp. All rights reserved.</div>
+</div></footer></body></html>
